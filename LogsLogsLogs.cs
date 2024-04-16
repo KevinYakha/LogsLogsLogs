@@ -1,6 +1,14 @@
 using System;
 
-// TODO: define the 'LogLevel' enum
+enum LogLevel
+{
+    Trace,
+    Debug,
+    Info,
+    Warning,
+    Error,
+    Fatal
+}
 
 static class LogLine
 {
